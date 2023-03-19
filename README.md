@@ -1,2 +1,3 @@
-# landingpage
-Criando uma LandingPage
+# Landing Page
+Criando uma Landing Page
+
