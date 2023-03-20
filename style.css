@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Tajawal&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /*box-sizing: border-box;
+    text-decoration: none;*/
+}
+body {
+    font-size: 100%;
+    background: #08090D;
+}
+.cabecalho {
+    position: absolute;
+    width: 1178px;
+    height: 94px;
+    left: 131px;
+    top: 40px;
+    background: #101114;
+    box-shadow: 0px -50px 250px rgba(97, 124, 125, 0.56);
+    border-radius: 10px;
+    /*
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; */
+}
+.logo-cabecalho{
+    position: relative;
+    width: 174.14px;
+    height: 132px;
+    left: 50px;
+    top: 23px;
+}
+.cabecalho-menu-about{
+    position: absolute;
+    width: 61px;
+    height: 29px;
+    left: 817px;
+    top: 43px;
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+.cabecalho-menu-works{
+    position: absolute;
+    width: 63px;
+    height: 29px;
+    left: 928px;
+    top: 43px;
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+/* identical to box height */
+    color: #FFFFFF;
+}
+.cabecalho-menu-contact{
+    position: absolute;
+    width: 79px;
+    height: 29px;
+    left: 1041px;
+    top: 43px;
+    font-family: 'Tajawal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+/* identical to box height */
+    color: #FFFFFF;
+}
+.astronauta{
+    position: absolute;
+    left: 469px;
+    top: 207px;
+}
+.conteudo{
+    position: absolute;
+    width: 465px;
+    height: 72px;
+}
+.conteudo-principal{
+    position: absolute;
+    width: 310px;
+    height: 72px;
+
+}
+.titulo{
+    position: absolute;
+    width: 310px;
+    height: 72px;
+    left: 488px;
+    top: 630px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+.titulo-strong{
+    position: absolute;
+    width: 148px;
+    height: 72px;
+    left: 320px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FF7A46;
+    text-shadow: -2px 3px 113px #FF7A46;
+}
+.sub-titulo{
+    position: absolute;
+    width: 411px;
+    height: 45px;
+    left: 516px;
+    top: 728px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #CBCBCB;
+    text-shadow: 0px 4px 250px #FFBA9E;
+}
+.botao-lateral{
+    /* next */
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 1269px;
+    top: 488px;
+}
+.next{
+    /* About Me */
+    position: absolute;
+    width: 107px;
+    height: 27px;
+    left: 1246px;
+    top: 545px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+/* identical to box height */
+    color: #FFFFFF;
+}
+.conteudo-secundario{
+    /* Estou estudando Desenvolvimento de Software Multiplataforma, conheça um pouco sobre mim! */
+position: absolute;
+width: 502px;
+height: 72px;
+left: 469px;
+top: 793px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 36px;
+/* or 225% */
+text-align: center;
+color: #FFFFFF;
+
+}
+.botoes-inferiores{
+    width:305px;
+	height:41px;
+	position:absolute;
+	left:567px;
+	top:883px;
+}
+.botao-inferior-about{
+    /* about me */
+position: absolute;
+width: 129px;
+height: 41px;
+filter: drop-shadow(0px 1px 250px #FFFFFF);
+background: #495482;
+border-radius: 10px;
+position: absolute;
+
+}
+.inferior-about{
+    width: 69.61px;
+height: 21px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+}
+.botao-inferior-projetos{
+    position: absolute;
+    box-shadow:0px 0px 200px rgba(255, 122.44814068078995, 70.12499392032623, 1);
+	width:119px;
+	height:41px;
+	left:186px;
+	top:0px;
+    filter: drop-shadow(0px 0px 200px #FF7A46);
+    background: #FCA17D;
+    border-radius: 10px;
+}
+.inferior-projetos{
+    position: absolute;
+    width: 119px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF; 
+}
