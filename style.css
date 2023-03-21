@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600&family=Tajawal&display=swap');
 
 * {
     margin: 0;
@@ -9,6 +9,8 @@
 body {
     font-size: 100%;
     background: #08090D;
+    width: 1440px;
+    height: 1024px;
 }
 .cabecalho {
     position: absolute;
@@ -25,12 +27,25 @@ body {
     align-items: center;
     justify-content: space-around; */
 }
-.logo-cabecalho{
+.vetor-luz{
     position: relative;
-    width: 174.14px;
-    height: 132px;
+    width: 121.14px;
+    height: 107px;
+    left: 103px;
+    top: 48px;
+}
+.cabecalho-menu-abner{
+    position: absolute;
+    width: 80px;
+    height: 53px;
     left: 50px;
     top: 23px;
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 53px;
+    color: #FFFFFF;
 }
 .cabecalho-menu-about{
     position: absolute;
@@ -197,6 +212,9 @@ font-weight: 500;
 font-size: 14px;
 line-height: 21px;
 color: #FFFFFF;
+position: absolute;
+left: 25px;
+top: 10px;
 }
 .botao-inferior-projetos{
     position: absolute;
@@ -219,4 +237,6 @@ color: #FFFFFF;
     font-size: 14px;
     line-height: 21px;
     color: #FFFFFF; 
+    left: 0px;
+    top: 10px;
 }
