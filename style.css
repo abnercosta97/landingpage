@@ -3,113 +3,92 @@
 * {
     margin: 0;
     padding: 0;
-    /*box-sizing: border-box;
-    text-decoration: none;*/
+    box-sizing: border-box;
+    text-decoration: none;
 }
 body {
     font-size: 100%;
     background: #08090D;
-    width: 1440px;
-    height: 1024px;
 }
-.cabecalho {
-    position: absolute;
-    width: 1178px;
-    height: 94px;
-    left: 131px;
-    top: 40px;
+.header-menu {
     background: #101114;
     box-shadow: 0px -50px 250px rgba(97, 124, 125, 0.56);
     border-radius: 10px;
+    margin: 2%;
+    padding: 2%;
+}
+.cabecalho {
+    /* position: absolute;
+    width: 1178px;
+    height: 94px;
+    left: 131px;
+    top: 40px;*/
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around; 
+    justify-content: space-around;
+    padding: 2px; 
 }
-.vetor-luz{
+.cabecalho-imagem {
     position: relative;
     width: 121.14px;
     height: 107px;
-    left: -156px;
     top: 54px;
 }
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+
+}
 .cabecalho-menu-abner{
-    position: absolute;
+    /*position: absolute;
     width: 80px;
     height: 53px;
     left: 50px;
-    top: 23px;
+    top: 23px;*/
     font-family: 'Pacifico', cursive;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 53px;
+    /*line-height: 53px;*/
     color: #FFFFFF;
 }
-.cabecalho-menu-about{
-    position: absolute;
-    width: 61px;
-    height: 29px;
-    left: 817px;
-    top: 43px;
+.cabecalho-menu-item {
     font-family: 'Tajawal', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 29px;
-    /* identical to box height */
     color: #FFFFFF;
-}
-.cabecalho-menu-works{
-    position: absolute;
-    width: 63px;
-    height: 29px;
-    left: 928px;
-    top: 43px;
-    font-family: 'Tajawal', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-/* identical to box height */
-    color: #FFFFFF;
-}
-.cabecalho-menu-contact{
-    position: absolute;
-    width: 79px;
-    height: 29px;
-    left: 1041px;
-    top: 43px;
-    font-family: 'Tajawal', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-/* identical to box height */
-    color: #FFFFFF;
+    /*line-height: 29px;*/
 }
 .astronauta{
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
     left: 469px;
-    top: 207px;
+    top: 207px;*/
 }
 .conteudo{
+
+    /*display: flex;
+    flex-direction: row;
     position: absolute;
     width: 465px;
-    height: 72px;
+    height: 72px;*/
 }
 .conteudo-principal{
-    position: absolute;
+    /*position: absolute;
     width: 310px;
-    height: 72px;
+    height: 72px;*/
 
 }
 .titulo{
-    position: absolute;
+    /*position: absolute;
     width: 310px;
     height: 72px;
     left: 488px;
-    top: 630px;
+    top: 630px;*/
     font-family: 'Poppins', cursive;
     font-style: normal;
     font-weight: 500;
@@ -118,10 +97,10 @@ body {
     color: #FFFFFF;
 }
 .titulo-strong{
-    position: absolute;
+    /*position: absolute;
     width: 148px;
     height: 72px;
-    left: 320px;
+    left: 320px;*/
     font-family: 'Poppins', cursive;
     font-style: normal;
     font-weight: 600;
