@@ -15,25 +15,15 @@ body {
     box-shadow: 0px -50px 250px rgba(97, 124, 125, 0.56);
     border-radius: 10px;
     margin: 2%;
-    padding: 2%;
+    padding: 1%;
 }
 .cabecalho {
-    /* position: absolute;
-    width: 1178px;
-    height: 94px;
-    left: 131px;
-    top: 40px;*/
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    padding: 2px; 
-}
-.cabecalho-imagem {
-    position: relative;
-    width: 121.14px;
-    height: 107px;
-    top: 54px;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 .cabecalho-menu {
     display: flex;
@@ -41,16 +31,10 @@ body {
 
 }
 .cabecalho-menu-abner{
-    /*position: absolute;
-    width: 80px;
-    height: 53px;
-    left: 50px;
-    top: 23px;*/
     font-family: 'Pacifico', cursive;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    /*line-height: 53px;*/
     color: #FFFFFF;
 }
 .cabecalho-menu-item {
@@ -61,6 +45,22 @@ body {
     color: #FFFFFF;
     /*line-height: 29px;*/
 }
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+
+}
+.conteudo-principal{
+    /*position: absolute;
+    width: 310px;
+    height: 72px;*/
+
+}
 .astronauta{
     /*display: flex;
     flex-direction: column;
@@ -69,26 +69,7 @@ body {
     left: 469px;
     top: 207px;*/
 }
-.conteudo{
-
-    /*display: flex;
-    flex-direction: row;
-    position: absolute;
-    width: 465px;
-    height: 72px;*/
-}
-.conteudo-principal{
-    /*position: absolute;
-    width: 310px;
-    height: 72px;*/
-
-}
 .titulo{
-    /*position: absolute;
-    width: 310px;
-    height: 72px;
-    left: 488px;
-    top: 630px;*/
     font-family: 'Poppins', cursive;
     font-style: normal;
     font-weight: 500;
@@ -97,10 +78,6 @@ body {
     color: #FFFFFF;
 }
 .titulo-strong{
-    /*position: absolute;
-    width: 148px;
-    height: 72px;
-    left: 320px;*/
     font-family: 'Poppins', cursive;
     font-style: normal;
     font-weight: 600;
@@ -110,11 +87,6 @@ body {
     text-shadow: -2px 3px 113px #FF7A46;
 }
 .sub-titulo{
-    position: absolute;
-    width: 411px;
-    height: 45px;
-    left: 516px;
-    top: 728px;
     font-family: 'Poppins', cursive;
     font-style: normal;
     font-weight: 500;
@@ -125,19 +97,14 @@ body {
 }
 .botao-lateral{
     /* next */
-    position: absolute;
     width: 48px;
     height: 48px;
-    left: 1269px;
-    top: 488px;
+
 }
 .next{
     /* About Me */
-    position: absolute;
     width: 107px;
     height: 27px;
-    left: 1246px;
-    top: 545px;
     font-family: 'Poppins', cursive;
     font-style: normal;
     font-weight: 500;
@@ -148,11 +115,8 @@ body {
 }
 .conteudo-secundario{
     /* Estou estudando Desenvolvimento de Software Multiplataforma, conheça um pouco sobre mim! */
-position: absolute;
 width: 502px;
 height: 72px;
-left: 469px;
-top: 793px;
 font-family: 'Poppins', cursive;
 font-style: normal;
 font-weight: 600;
@@ -166,19 +130,16 @@ color: #FFFFFF;
 .botoes-inferiores{
     width:305px;
 	height:41px;
-	position:absolute;
-	left:567px;
-	top:883px;
+
 }
 .botao-inferior-about{
     /* about me */
-position: absolute;
 width: 129px;
 height: 41px;
 filter: drop-shadow(0px 1px 250px #FFFFFF);
 background: #495482;
 border-radius: 10px;
-position: absolute;
+
 
 }
 .inferior-about{
@@ -190,23 +151,17 @@ font-weight: 500;
 font-size: 14px;
 line-height: 21px;
 color: #FFFFFF;
-position: absolute;
-left: 25px;
-top: 10px;
+
 }
 .botao-inferior-projetos{
-    position: absolute;
     box-shadow:0px 0px 200px rgba(255, 122.44814068078995, 70.12499392032623, 1);
 	width:119px;
 	height:41px;
-	left:186px;
-	top:0px;
     filter: drop-shadow(0px 0px 200px #FF7A46);
     background: #FCA17D;
     border-radius: 10px;
 }
 .inferior-projetos{
-    position: absolute;
     width: 119px;
     height: 21px;
     font-family: 'Poppins';
@@ -215,6 +170,4 @@ top: 10px;
     font-size: 14px;
     line-height: 21px;
     color: #FFFFFF; 
-    left: 0px;
-    top: 10px;
 }
