@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600&family=Tajawal&display=swap');
 
+:root {
+    --cor1: #08090D;
+    --cor2: #101114;
+    --cor3: #FF7A46;
+    --cor4: #CBCBCB;
+    --cor5: #FFBA9E;
+    --cor6: #495482;
+    --cor7: #FCA17D;
+    
+    --fonte-padrao: 'Poppins', cursive;
+    --fonte-destaque: 'Pacifico', cursive;
+    --fonte-menu: 'Tajawal', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,10 +22,10 @@
 }
 body {
     font-size: 100%;
-    background: #08090D;
+    background: var(--cor1);
 }
 .header-menu {
-    background: #101114;
+    background: var(--cor2);
     box-shadow: 0px -50px 250px rgba(97, 124, 125, 0.56);
     border-radius: 10px;
     margin: 2%;
@@ -57,6 +71,7 @@ body {
 
 }
 .conteudo-principal {
+    margin: auto;
     /*position: absolute;
     width: 310px;
     height: 72px;*/
@@ -93,6 +108,7 @@ body {
     font-weight: 500;
     font-size: 30px;
     line-height: 45px;
+    text-indent: 65px;
     color: #CBCBCB;
     text-shadow: 0px 4px 250px #FFBA9E;
 }
@@ -116,16 +132,16 @@ body {
 }
 .conteudo-secundario{
     /* Estou estudando Desenvolvimento de Software Multiplataforma, conheça um pouco sobre mim! */
-width: 502px;
-height: 72px;
-font-family: 'Poppins', cursive;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 36px;
-/* or 225% */
-text-align: center;
-color: #FFFFFF;
+    width: 502px;
+    height: 72px;
+    font-family: 'Poppins', cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF;
 
 }
 .botoes-inferiores{
@@ -135,23 +151,23 @@ color: #FFFFFF;
 }
 .botao-inferior-about{
     /* about me */
-width: 129px;
-height: 41px;
-filter: drop-shadow(0px 1px 250px #FFFFFF);
-background: #495482;
-border-radius: 10px;
+    width: 129px;
+    height: 41px;
+    filter: drop-shadow(0px 1px 250px #FFFFFF);
+    background: #495482;
+    border-radius: 10px;
 
 
 }
 .inferior-about{
     width: 69.61px;
-height: 21px;
-font-family: 'Poppins', cursive;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 21px;
-color: #FFFFFF;
+    height: 21px;
+    font-family: 'Poppins', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
 
 }
 .botao-inferior-projetos{
@@ -171,4 +187,7 @@ color: #FFFFFF;
     font-size: 14px;
     line-height: 21px;
     color: #FFFFFF; 
+}
+.ao-lado {
+    margin: auto;
 }

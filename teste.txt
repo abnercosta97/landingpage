@@ -1,0 +1,13 @@
+:root {
+    --cor1: #08090D;
+    --cor2: #101114;
+    --cor3: #FF7A46;
+    --cor4: #CBCBCB;
+    --cor5: #FFBA9E;
+    --cor6: #495482;
+    --cor7: #FCA17D;
+    
+    --fonte-padrao: 'Poppins', cursive;
+    --fonte-destaque: 'Pacifico', cursive;
+    --fonte-menu: 'Tajawal', sans-serif;
+}
