@@ -1,0 +1,25 @@
+// Custom.scss
+// Opção A: Importa todo o Bootstrap
+// Suas sobrescrições de variáveis
+
+$primary: #08090D;
+$secondary: #101114;
+$success: #FF7A46;
+$info: #CBCBCB;
+$warning: #FFBA9E;
+$danger: #495482;
+$light: #FCA17D;
+
+$body-bg: #08090D;
+$body-color: #08090D;
+:root,
+[data-bs-theme=dark] {
+    --bs-body-color: #08090D;
+
+    --bs-body-bg: #08090D;
+
+}
+
+//Bootstrap e suas variáveis padrões
+@import "/node_modules/bootstrap/scss/bootstrap";
+
